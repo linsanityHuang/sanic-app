@@ -161,5 +161,5 @@ async def tag_handler(request, tag):
 
 
 if __name__ == "__main__":
-    # app.run(host="0.0.0.0", port=1337, access_log=False, workers=4, debug=False)
-    app.run(host="0.0.0.0", port=1337)
+    app.run(host="0.0.0.0", port=1337, access_log=False, workers=4, debug=False)
+    # app.run(host="0.0.0.0", port=1337)
